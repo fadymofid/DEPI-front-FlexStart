@@ -1,0 +1,233 @@
+
+.theme-toggle {
+    position: fixed;
+    left: 20px;
+    top: 40px;
+    z-index: 1000;
+}
+
+.toggle-button {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #e0e0e0;
+}
+
+
+body.dark-theme {
+    background-color: #121212 !important;
+    color: #e0e0e0;
+}
+
+
+body.dark-theme .header {
+    background-color: #1e1e1e;
+}
+body.dark-theme .header .logo h1 {
+   color: #3636ff;
+}
+
+
+body.dark-theme .navmenu ul li a {
+    color: #ffffff;
+}
+
+body.dark-theme .navmenu ul li a:hover,
+body.dark-theme .navmenu ul li a.active {
+    color: #a3a3ff;
+}
+
+
+body.dark-theme .hero {
+    background-color: #1e1e1e;
+    background-image: url("wallpaperflare.com_wallpaper (2).jpg"); /* Replace with a suitable dark-themed image */
+    color: #e0e0e0;
+}
+
+body.dark-theme .hero p {
+    color: #cfcfcf;
+}
+
+body.dark-theme .hero h1,
+body.dark-theme .hero h2,
+body.dark-theme .hero h3 {
+  color: #3636ff;
+}
+body.dark-theme h4{
+   color: #587edd
+}
+body.dark-theme .hero span {
+    color: #dcdcdc;
+}
+
+
+body.dark-theme .section {
+    background-color: #1f1f1f;
+    color: #dcdcdc;
+}
+
+
+body.dark-theme #stats {
+    background-color: #1e1e1e;
+}
+
+body.dark-theme #stats .stats-item {
+    background-color: #252525;
+    color: #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+body.dark-theme #stats .stats-item i {
+    color: #8c8cff;
+}
+
+body.dark-theme #stats .stats-item span {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+body.dark-theme #stats .stats-item p {
+    color: #cfcfcf;
+    font-size: 16px;
+}
+
+
+body.dark-theme #features {
+    background-color: #1e1e1e;
+}
+body.dark-theme #features .section-title h2 {
+    color: #c9c9ff;
+}
+
+body.dark-theme #features .section-title p {
+    color: #3636ff;
+}
+
+body.dark-theme #features .feature-box {
+    background-color: #252525;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+body.dark-theme #features .feature-box i {
+    color: #8c8cff;
+    margin-right: 10px;
+}
+
+body.dark-theme #features .feature-box h3 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+body.dark-theme #features .img-fluid {
+    filter: brightness(0.85);
+}
+body.dark-theme h2,h3{
+    color: rgba(255, 255, 255, 0.85)
+}
+body.dark-theme .values p {
+    color: #003baf
+}
+
+body.dark-theme .values .card {
+    background-color:
+            color-mix(in srgb, var(--accent-color), transparent 95%);
+    opacity: 0.85;
+    color: #ffffff;
+}
+
+body.dark-theme .values .card h3 {
+    color: #0073ff;
+}
+
+body.dark-theme .values .card p {
+    color: #e0e0e0;
+}
+
+
+body.dark-theme .btn-get-started,
+body.dark-theme .btn-read-more {
+    background-color: #4a4aff;
+    color: #ffffff;
+}
+
+body.dark-theme .btn-get-started:hover,
+body.dark-theme .btn-read-more:hover {
+    background-color: #3636ff;
+}
+body.dark-theme #alt-features p{
+    color: #ffffff;
+}
+
+body.dark-theme footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+
+body.dark-theme a {
+    color: #8c8cff;
+}
+
+body.dark-theme a:hover {
+    color: #b3b3ff;
+}
+body.dark-theme .services .service-item {
+    background-color:
+            color-mix(in srgb, var(--accent-color), transparent 95%);
+}
+body.dark-theme .services .section-title p {
+    color : #3636ff;
+}
+body.dark-theme .pricing .pricing-tem   {
+    background-color: #252525;
+}
+body.dark-theme .pricing .pricing-tem .price  {
+    color: #3636ff;
+}
+body.dark-theme .pricing .pricing-tem span{
+    color: whitesmoke;
+
+}
+body.dark-theme .pricing .pricing-tem li{
+    color: whitesmoke;
+
+}
+body.dark-theme .pricing .section-title p{
+    color : #3636ff;
+}
+body.dark-theme .faq .section-title p{
+    color : #3636ff;
+}
+body.dark-theme .portfolio .section-title p{
+    color : #3636ff;
+}
+body.dark-theme .team .section-title p{
+    color : #3636ff;
+}
+
+body.dark-theme .values .section-title p{
+    color : #3636ff;
+}
+body.dark-theme .team .team-member .member-info p {
+    color: whitesmoke;
+}
+body.dark-theme .team .team-member .member-info span {
+    color: whitesmoke;
+    font-weight: 600;
+}
+body.dark-theme .services .service-item h3 {
+    color: whitesmoke;
+}
+body.dark-theme .faq .faq-container .faq-item h3 {
+    color: #374eec;
+}
